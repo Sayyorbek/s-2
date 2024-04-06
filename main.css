@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,p{
+    text-align: center;
+    color: red;
+}
+p{
+    color: black;
+}
+.navbar{
+    background-color: gray;
+    text-align: center;
+}
+.nav_img > img{
+    width: 90px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    width: 250px;
+    margin: auto;
+    list-style: none;
+}
+.container{
+    background: url(img/photo_numbe3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+.container h1, h3{
+    padding-top: 30px;
+}
+.container > h3{
+    font-size: 30px;    
+    text-align: center;
+}
+.container>img{
+    margin-left: 230px;
+    width: 400px;    
+    margin-top: 50px;
+    border-radius: 50px;
+    box-shadow: rgb(0, 0, 0) 0px 22px 70px 24px;
+    margin-bottom: 70px;
+}
+hr{
+    margin-top: 25px;
+    color: black;
+}
+
